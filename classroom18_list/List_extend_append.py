@@ -25,7 +25,9 @@ print(list2)
 
 list1.extend(list2)
 
-# extend - adiciona uma lista/valores no final de uma lista. ex: list2 foi adicionada na list1
+# extend - adiciona uma multiplos valores no final de uma lista de forma que todos os elementos estejam juntos. ex: list2 foi adicionada na list1
+# resultado: [1, 2, 3, 4, 5]
+
 print(f'Usando a funcao extend: {list1}')
 
 print()
@@ -37,7 +39,9 @@ print(list1)
 print(list2)
 
 list2.append(list1)
-# append - adiciona lista/valores no inicio de outra lista
+# append - adiciona lista/valores no final de outra lista, em caso de uma lista sendo passada
+# para o append, na lista principal ela aparecera como um item com elementos dentro
+# resultado: [1, 2, 3, [4, 5]]
 
 print(f'Usando a funcao append: {list2}')
 
